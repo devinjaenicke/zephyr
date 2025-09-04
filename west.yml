@@ -23,6 +23,8 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: babblesim
       url-base: https://github.com/BabbleSim
+    - name: zephyr-gb
+      url-base: https://github.com/devinjaenicke
 
   group-filter: [-babblesim, -optional]
 
@@ -235,7 +237,8 @@ manifest:
       groups:
         - hal
     - name: hal_silabs
-      revision: 76b2e827a2fba51178c145292098c9afc86a0a33
+      remote: zephyr-gb
+      revision: 35fa4ef35e1abd16ab5a3ab6d79062a1f5e458be
       path: modules/hal/silabs
       groups:
         - hal
