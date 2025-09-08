@@ -238,7 +238,7 @@ manifest:
         - hal
     - name: hal_silabs
       remote: zephyr-gb
-      revision: 35fa4ef35e1abd16ab5a3ab6d79062a1f5e458be
+      revision: 5bdb5fcb3df5fe7929892e576d807772594b6aa9
       path: modules/hal/silabs
       groups:
         - hal
